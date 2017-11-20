@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/step1"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/step1"
+        android:textColor="@color/Slidercolor"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/step1_input_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp">
+
+    <EditText
+        android:id="@+id/step1_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Mobile Number"
+        android:textColor="@color/Slidercolor"
+        android:textAlignment="center"
+        android:textColorHint="@color/Textcolor"
+        android:maxLength="10"
+        android:layout_margin="50dp"
+        android:inputType="phone"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button android:id="@+id/btn_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Confiramtion_code"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+
+        />
+
+</LinearLayout>

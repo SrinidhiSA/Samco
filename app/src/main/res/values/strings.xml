@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SAMCO</string>
+    <string name="step1">Quick, Easy and Secure Account Registration</string>
+    <string name="Confiramtion_code"> SEND CONFIMATION CODE</string>
+    <string name="Step2">Please enter the OTP sent to ********16 </string>
+    <string name="Time">2:25</string>
+    <string name="Step2_OTP">Resend OTP</string>
+    <string name="Step2_verifyOTP">VERIFY OTP</string>
+    <string name="Forgot_login">Forgot LOgin Pin</string>
+    <string name="Account">Create Account</string>
+</resources>

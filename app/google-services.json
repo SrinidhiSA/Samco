@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "782916335712",
+    "firebase_url": "https://cafe-78d5a.firebaseio.com",
+    "project_id": "cafe-78d5a",
+    "storage_bucket": "cafe-78d5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782916335712:android:95ccab99e109e317",
+        "android_client_info": {
+          "package_name": "com.example.ssa3410.cafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782916335712-m9ibrgc9cvb4fqgsmaqu8aat78bohrf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ssa3410.cafe",
+            "certificate_hash": "41c908dfde6d81db12aa85e49a5b76a22711fc7a"
+          }
+        },
+        {
+          "client_id": "782916335712-erfg0vge91vs50kftgu3je6t868sdfn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtnmqYwGE0iiRWcKrbALnvyUVaZ_GZ_s4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782916335712-erfg0vge91vs50kftgu3je6t868sdfn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

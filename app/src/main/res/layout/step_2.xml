@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/step1"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/Step2"
+        android:textColor="@color/Textcolor"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/step1_input_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/step2_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Slidercolor"
+            android:textAlignment="center"
+            android:textColorHint="@color/Textcolor"
+            android:maxLength="6"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:inputType="phone"
+            android:shadowColor="@color/Slidercolor"/>
+
+    </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Time"
+            android:textAlignment="center"
+            android:textColor="@color/Slidercolor"/>
+
+    <TextView
+        android:id="@+id/Resend_OTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Step2_OTP"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/Slidercolor"/>
+
+    <Button android:id="@+id/btn_verifyOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Step2_verifyOTP"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+
+        />
+
+</LinearLayout>
